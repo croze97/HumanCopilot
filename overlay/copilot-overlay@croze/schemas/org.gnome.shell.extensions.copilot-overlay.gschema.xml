@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.copilot-overlay"
+          path="/org/gnome/shell/extensions/copilot-overlay/">
+    <key name="mark-done" type="as">
+      <default><![CDATA[['<Super><Alt>space']]]></default>
+      <summary>Mark the current (▶) step done; once every step is answered, the same chord sends</summary>
+    </key>
+    <key name="mark-fail" type="as">
+      <default><![CDATA[['<Super><Alt>x']]]></default>
+      <summary>Mark the current (▶) step FAILED</summary>
+    </key>
+    <key name="undo-done" type="as">
+      <default><![CDATA[['<Super><Alt>z']]]></default>
+      <summary>Undo the last answered step (done or failed)</summary>
+    </key>
+    <key name="attach-snip" type="as">
+      <default><![CDATA[['<Super><Alt>a']]]></default>
+      <summary>Attach the current clipboard snip to the current (▶) step</summary>
+    </key>
+    <key name="edit-note" type="as">
+      <default><![CDATA[['<Super><Alt>n']]]></default>
+      <summary>Type a reply under the current (▶) step (Enter saves, Esc cancels)</summary>
+    </key>
+    <key name="submit-answer" type="as">
+      <default><![CDATA[['<Super><Alt>Return']]]></default>
+      <summary>Submit the reply (checked steps + attached snips)</summary>
+    </key>
+    <key name="dismiss-request" type="as">
+      <default><![CDATA[['<Super><Alt>BackSpace']]]></default>
+      <summary>Decline the request (the agent is told)</summary>
+    </key>
+    <key name="toggle-glossary" type="as">
+      <default><![CDATA[['<Super><Alt>slash']]]></default>
+      <summary>Hide/show the hotkey glossary in the overlay</summary>
+    </key>
+    <key name="glossary-visible" type="b">
+      <default>false</default>
+      <summary>Whether the overlay shows the full hotkey glossary (the NOW line is always shown)</summary>
+    </key>
+  </schema>
+</schemalist>

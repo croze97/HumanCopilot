@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.qa/
+.beads/
+.env
+.env.*
+*.key
+*.pem
+spool/
+overlay/*/schemas/gschemas.compiled

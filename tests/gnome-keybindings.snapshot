@@ -1,0 +1,4 @@
+# Synthetic minimal keybinding inventory for headless tests.
+# It does not establish the absence of conflicts on a real desktop.
+org.gnome.desktop.wm.keybindings switch-panels ['<Control><Alt>Tab']
+org.gnome.settings-daemon.plugins.media-keys screenreader ['<Super><Alt>s']

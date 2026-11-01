@@ -1,0 +1,11 @@
+{
+  "uuid": "copilot-overlay@croze",
+  "name": "Human Copilot",
+  "description": "Local human feedback for MCP agents, with GNOME overlay and terminal response surfaces.",
+  "version": 1,
+  "shell-version": [
+    "50"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.copilot-overlay",
+  "url": "https://github.com/croze97/HumanCopilot"
+}
